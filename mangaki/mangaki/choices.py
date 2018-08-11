@@ -72,3 +72,9 @@ SUGGESTION_PROBLEM_CHOICES = (
     ("n_nsfw", "L'oeuvre n'est pas NSFW"),
     ("ref", "Proposer une URL (MyAnimeList, AniDB, Icotaku, VGMdb, etc.)")
 )
+
+RATINGS_MAPPING_CHOICES = (
+    ("standard", "Standard"),
+    ("strict", "Strict"),
+    ("gentle", "Noble")
+)
